@@ -5,7 +5,7 @@
 # TODO: I believe that we should get rid of most of the nested package
 # structure, but the transition will be painful.
 
-__precompile__()
+__precompile__(false) # MB: precompilation fails if not set to false
 
 module ScikitLearn
 
